@@ -2,6 +2,7 @@ require "bundler/capistrano"
 load "config/recipes/base"
 
 set :remote_branch, 'origin/master'
+server 'codecrowd.eu', :web, :app, :db, primary: true
 
 set :application, "codecrowd-web"
 set :app_root_folder, "/home/deployer/apps/#{application}/current"
