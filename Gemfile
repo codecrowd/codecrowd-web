@@ -31,6 +31,7 @@ gem 'slim'
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'pry'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

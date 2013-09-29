@@ -4,7 +4,9 @@ describe "landing page" do
   end
 
   it "shows company name" do
-    expect(page).to have_content('CodeCrowd')
+    within 'body' do
+      expect(page).to have_content('CodeCrowd')
+    end
   end
 
   it "links to showroom"
