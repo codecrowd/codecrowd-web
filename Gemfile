@@ -44,3 +44,5 @@ gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'personal', path: 'lib/personal' # Developer playground. Simple rails engine to try out ideas

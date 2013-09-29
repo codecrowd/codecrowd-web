@@ -1,3 +1,9 @@
+PATH
+  remote: lib/personal
+  specs:
+    personal (0.0.1)
+      rails (~> 4.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,6 +167,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  personal!
   pry
   rails (= 4.0.0)
   rspec-rails
