@@ -7,4 +7,5 @@ CodecrowdWeb::Application.routes.draw do
   root to: 'pages#index'
   resources :pages
 
+  get "/:slug", to: "pages#show", as: 'slug'
 end

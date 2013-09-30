@@ -9,7 +9,7 @@ nav.navbar.navbar-default role='navigation'
   .collapse.navbar-collapse.navbar-ex1-collapse
     ul.nav.navbar-nav
       li.active
-        a href="#" About
+        = link_to 'About', slug_url('about')
     form.navbar-form.navbar-right role="search"
       .form-group
         input.form-control type="text" class="form-control" placeholder="Search"
