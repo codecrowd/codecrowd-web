@@ -14,4 +14,6 @@ head
     ga('create', 'UA-44437541-1', 'codecrowd.eu');
     ga('send', 'pageview');
 body
-  = yield
+  = render partial: 'layouts/navbar'
+  .container
+    = yield
