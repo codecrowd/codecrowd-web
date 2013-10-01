@@ -32,6 +32,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'pry'
+  gem 'guard'
+  gem "guard-rspec", require: false
+  gem 'zeus', require: false
 end
 
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
